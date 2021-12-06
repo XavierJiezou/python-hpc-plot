@@ -26,3 +26,8 @@ Overwrite the dir `data` and run `python main.py` to get your figure like demo f
 or
 
 Overwrite the dir `data2` and run `python main2.py` to get your figure like demo fig 2.
+
+## Contributors
+
+- Code: Xuechao Z
+- Data: `data` from Jiaohao T and `data2` from Wenxuan Z
