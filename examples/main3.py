@@ -13,7 +13,7 @@ def main3():
         'x': [],
         'y': []
     }
-    with open('./data3/data.txt') as f:
+    with open('./data/data3/data.txt') as f:
         for line in f.readlines():
             line = line.strip().split(' ')
             x = line[0]
@@ -22,7 +22,7 @@ def main3():
             dict_data['y'].append(float(y))
 
     # bar
-    plt.bar(dict_data['x'], dict_data['y'], label='Helmholtz', width=0.5, alpha=0.5)
+    plt.bar(dict_data['x'], dict_data['y'], label='Helmholtz', width=0.3, alpha=0.5)
     plt.xlabel('进程数')
     plt.ylabel('求解赫姆霍兹方程所占比例')
     def to_percent(temp, position):
@@ -31,7 +31,7 @@ def main3():
     plt.legend()
     
     # save
-    plt.savefig('img/3.png', dpi=500, bbox_inches='tight')
+    plt.savefig('imgs/3.png', dpi=500, bbox_inches='tight')
 
 
 if __name__ == '__main__':

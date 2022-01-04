@@ -5,8 +5,8 @@ import os
 
 def main():
     dict_data = {}
-    for name in os.listdir('data1/'):
-        path = 'data1/'+name
+    for name in os.listdir('./data/data1/'):
+        path = './data/data1/'+name
         with open(path) as f:
             x = []
             y = []
@@ -29,7 +29,7 @@ def main():
     plt.ylabel('GFLOPS')
     plt.legend()
     plt.grid()
-    plt.savefig('img/1.png', dpi=500, bbox_inches='tight')
+    plt.savefig('imgs/1.png', dpi=500, bbox_inches='tight')
 
 
 if __name__ == '__main__':

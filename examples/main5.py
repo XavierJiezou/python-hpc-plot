@@ -14,7 +14,7 @@ def main5():
         'y': [],
         'z': []
     }
-    with open('./data5/data.txt') as f:
+    with open('./data/data5/data.txt') as f:
         dict_data['x'] = f.readline().strip().split()
         dict_data['y'] = [float(i) for i in f.readline().strip().split()]
         dict_data['z'] = [float(i) for i in f.readline().strip().split()]
@@ -35,7 +35,7 @@ def main5():
     fig.legend(loc=1, bbox_to_anchor=(1, 0.8), bbox_transform=ax1.transAxes)
 
     # save
-    plt.savefig('img/5.png', dpi=500, bbox_inches='tight')
+    plt.savefig('imgs/5.png', dpi=500, bbox_inches='tight')
 
 
 if __name__ == '__main__':

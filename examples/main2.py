@@ -6,8 +6,8 @@ import re
 
 def main2():
     dict_data = {}
-    for name in sorted(os.listdir('data2/'), key=lambda x: int(x.split('.')[0])):
-        path = 'data2/'+name
+    for name in sorted(os.listdir('./data/data2/'), key=lambda x: int(x.split('.')[0])):
+        path = './data/data2/'+name
         with open(path) as f:
             x = []
             y = []
@@ -31,7 +31,7 @@ def main2():
     plt.ylabel('GFLOPS')
     plt.legend()
     plt.grid()
-    plt.savefig('img/2.png', dpi=500, bbox_inches='tight')
+    plt.savefig('imgs/2.png', dpi=500, bbox_inches='tight')
 
 
 if __name__ == '__main__':

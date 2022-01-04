@@ -13,7 +13,7 @@ def main4():
         'x': [],
         'y': []
     }
-    with open('./data4/data.txt') as f:
+    with open('./data/data4/data.txt') as f:
         for line in f.readlines():
             line = line.strip().split(' ')
             x = line[0]
@@ -25,7 +25,7 @@ def main4():
     plt.pie(dict_data['y'], labels=dict_data['x'], autopct="%1.0f%%")
 
     # save
-    plt.savefig('img/4.png', dpi=500, bbox_inches='tight')
+    plt.savefig('imgs/4.png', dpi=500, bbox_inches='tight')
 
 
 if __name__ == '__main__':
