@@ -4,7 +4,7 @@ Plot HPC comparision figure with Python.
 
 ## Demo
 
-| Fig 1 for dir `data1` | Fig 2 for dir `data2` | Fig 3 for dir `data3` | Fig 4 for dir `data4` | Fig 5 for dir `data5` |
+| Fig 1 | Fig 2 | Fig 3 | Fig 4 | Fig 5 |
 |----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 |  ![1.png](img/1.png) |  ![2.png](img/2.png)  |  ![3.png](img/3.png)  |  ![4.png](img/4.png)  |  ![5.png](img/5.png)  |
 
