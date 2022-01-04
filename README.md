@@ -26,4 +26,4 @@ Overwrite the dir `./data/data*` and run `python ./examples/main*.py` to get you
 ## Contributors
 
 - Code: Xuechao Z
-- Data: `./data/data1` from Jiaohao T, `./data/data2` from Wenxuan Z and `./data/data3, 4, 5` from Dongqiang H
+- Data: `data1` from Jiaohao T, `data2` from Wenxuan Z and `data3, 4, 5` from Dongqiang H
