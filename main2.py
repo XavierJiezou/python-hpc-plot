@@ -31,7 +31,7 @@ def main2():
     plt.ylabel('GFLOPS')
     plt.legend()
     plt.grid()
-    plt.savefig('img/2.png', dpi=500)
+    plt.savefig('img/2.png', dpi=500, bbox_inches='tight')
 
 
 if __name__ == '__main__':

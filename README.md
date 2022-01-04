@@ -4,9 +4,9 @@ Plot HPC comparision figure with Python.
 
 ## Demo
 
-| Fig 1 for dir `data` | Fig 2 for dir `data2` |
-|----------------------|-----------------------|
-|  ![1.png](img/1.png) |  ![2.png](img/2.png)  |
+| Fig 1 for dir `data1` | Fig 2 for dir `data2` | Fig 3 for dir `data3` | Fig 4 for dir `data4` | Fig 5 for dir `data5` |
+|----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
+|  ![1.png](img/1.png) |  ![2.png](img/2.png)  |  ![3.png](img/3.png)  |  ![4.png](img/4.png)  |  ![5.png](img/5.png)  |
 
 ## Install
 
@@ -21,13 +21,9 @@ git clone https://github.com/XavierJiezou/python-hpc-plot.git
 cd python-hpc-plot
 ```
 
-Overwrite the dir `data` and run `python main.py` to get your figure like demo fig 1.
-
-or
-
-Overwrite the dir `data2` and run `python main2.py` to get your figure like demo fig 2.
+Overwrite the dir `data*` and run `python main*.py` to get your figure like demo fig *.
 
 ## Contributors
 
 - Code: Xuechao Z
-- Data: `data` from Jiaohao T and `data2` from Wenxuan Z
+- Data: `data1` from Jiaohao T, `data2` from Wenxuan Z and `data3, 4, 5` from Dongqiang H

@@ -1,0 +1,6 @@
+SpMV 8.504
+GetR1 4.669
+ILU0_M 2.16
+Dot 0.808
+Qsort 1.44
+Other 3.468
